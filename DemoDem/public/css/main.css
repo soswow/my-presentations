@@ -1,0 +1,36 @@
+.gallery::before{
+  content: '<-- Clickable';
+  position: absolute;
+  top: 308px;
+  right: -63px;
+  font-size: 89%;
+  font-family: "League Gothic", Impact, sans-serif;
+  text-transform: uppercase;
+}
+.gallery.started::before{
+  content: '';
+}
+.gallery .showNext{
+  display: none;
+}
+.gallery .showNext img{
+  cursor: pointer;
+}
+.gallery .showNext img{
+  margin: 0 auto;
+}
+.gallery .showNext:first-of-type{
+  display: block;
+ }
+.dl-horizontal dt, .dl-horizontal dd{
+  font-size: 26px;
+  line-height: 35px !important;
+}
+.dl-horizontal dd{
+  text-align: left;
+  padding-left: 180px;
+}
+#morseFeedback{
+  font-size: 90%;
+  text-align: left;
+}

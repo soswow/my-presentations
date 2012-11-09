@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Wrap your head around Arduino</title>
+
+  <meta name="description" content="Wrap your head around Arduino">
+  <meta name="author" content="Aleksandr Motsjonov">
+
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+  <script>
+    document.write('<link rel="stylesheet" href="css/print/' + ( window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+  <script src="js/coffee-script.js" type="text/javascript"></script>
+  <script type="text/coffeescript" src="js/main.coffee"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+  <section>
+    <h1>Wrap your head around Arduino</h1>
+    <h3>... and other electronics stuff</h3>
+    <p>
+      <small>Created by Aleksandr Motsjonov / <a href="http://twitter.com/soswow">@soswow</a></small>
+    </p>
+  </section>
+  <section>
+    <section>
+      <h1>Introduction</h1>
+      <aside class="notes">
+        So, let's start with something 
+      </aside>
+    </section>
+    <section>
+      <h2>Hobby Electronics</h2>
+      <h3>What do you need?</h3>
+      <div class="gallery">
+        <figure class="showNext">
+          <img src="img/breadboard_clean.png">
+          <figcaption>Simple breadboard</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/breadboard_structure.png">
+          <figcaption>Breadboard structure</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/jumpers.png">
+          <figcaption>Jumpers</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/breadboard_heavy.png">
+          <figcaption>Huge mixed breadboard</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/starter_kit1.png">
+          <figcaption>Simple starter kit</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/starter_kit2.png">
+          <figcaption>Simple starter kit assembled</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/starter_kit3.png">
+          <figcaption>Cool starter kit</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section>
+      <h2>Microcontroller</h2>
+      <div class="gallery">
+        <figure class="showNext">
+          <img src="img/old_avr.png">
+          <figcaption><strong>8-bit</strong> AVR
+            Microcontroller
+            with <strong>2K Bytes</strong>
+            of In-System
+            Programmable
+            Flash</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/avr_scheme.png" class="showNext">
+          <figcaption>Pin Configuration</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/isp_programmer.png" class="showNext">
+          <figcaption>AVR Serial ISP Programmer. Via COM port!</figcaption>
+        </figure>
+      </div>
+      <aside class="notes">
+        About long time ago, when you needed to by a microcontroller, ISP programmater, 
+        do own wrapping scheme and write code in C.
+      </aside>
+    </section>
+    <section>
+      <h2>Arduino</h2>
+      <figure>
+        <img src="img/arduino_uno.png">
+        <figcaption>Arduino UNO</figcaption>
+      </figure>
+    </section>
+    <section>
+      <h2>What is Arduino?</h2>
+      <ul>
+        <li class="fragment">Development board</li>
+        <li class="fragment">Custom simple language</li>
+        <li class="fragment">Wide library</li>
+        <li class="fragment">Bootloader + IDE</li>
+        <li class="fragment">Low price</li>
+        <li class="fragment">Open source</li>
+      </ul>
+      <aside class="notes">
+
+      </aside>
+    </section>
+    
+  </section>
+  
+  <section>
+    <section>
+      <h2>Arduino family</h2>
+      <div class="gallery">
+        <figure class="showNext">
+          <img src="img/arduino_uno.png">
+          <figcaption>Arduino UNO (32KB, 16 MHz)</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/micro.png">
+          <figcaption>Arduino Micro (32KB, 16 MHz)</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/mega.png">
+          <figcaption>Arduino Mega 2560 (256KB)</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/seedouni.png">
+          <figcaption>Seeeduino (clone of Duemilanove)</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/diavolino.png">
+          <figcaption>Diavolino from seeedstudio</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/femtduino.png">
+          <figcaption>Femtduino</figcaption>
+        </figure>
+      </div>
+      <aside class="notes">
+        Start with describing what it has: usb port, reset button, power,
+        IO pins (analog and digital ones)
+        About seeeduino - it's cheaper, lighter, smaller and can be powered form usb.
+      </aside>
+    </section>
+    <section>
+      <h2>Shields</h2>
+      <div class="gallery">
+        <figure class="showNext">
+          <img src="img/ethernet_shild.png">
+          <figcaption>Ethernet shield</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/wifi_shild.png">
+          <figcaption>Wifi shield</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/gprs_shield.png">
+          <figcaption>GPRS shield</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/bluetooth_shild.png">
+          <figcaption>Bluetooth shield</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/proto_shild.png">
+          <figcaption>Prototyping shield</figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/Ardupilot%20mega%20shield.png">
+          <figcaption>Ardupilot mega system</figcaption>
+        </figure>
+      </div>
+    </section>
+  </section>
+  <section>
+    <section>
+      <h1>Syntax and functions</h1>
+    </section>
+    <section>
+      <h2>Bare Minimum</h2>
+      <pre><code class="cpp">void setup() {
+
+}
+
+void loop() {
+
+}</code></pre>
+    </section>
+    <section>
+      <h2>Hello world</h2>
+      <pre><code contenteditable class="cpp">int led = 13;
+
+void setup() {
+  pinMode(led, OUTPUT);
+}
+        
+void loop() {
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+}</code></pre>
+    </section>
+    
+    <section>
+      <h2>Basic stuff</h2>
+      <pre><code contenteditable style="margin-right:15px;" class="cpp pull-left">
+//Control Structures
+if
+if...else
+for
+switch case
+while
+do... while
+break
+continue
+return
+goto
+      </code></pre>
+      <pre ><code style="margin-right:15px;" contenteditable class="fragment cpp pull-left">
+//Data types
+void
+boolean
+char
+unsigned char
+byte
+int
+unsigned int
+word
+long
+unsigned long
+short
+float
+double
+string - char array
+String - object
+array</code></pre>
+      <pre ><code style="margin-right:15px;" contenteditable class="fragment cpp pull-left">
+//Some Basic func-s
+digitalWrite()
+digitalRead()
+analogRead()
+analogWrite()
+shiftOut()
+shiftIn()
+millis()
+micros()
+delay()
+delayMicroseconds()</code></pre>
+    </section>
+    <section>
+      <h2>Libraries</h2>
+      <dl class="dl-horizontal">
+        <div class="fragment">
+          <dt>Ethernet</dt>
+          <dd>for connecting to the internet using the Arduino Ethernet Shield</dd>
+        </div>
+        <div class="fragment"><dt>LiquidCrystal</dt>
+        <dd>for controlling liquid crystal displays (LCDs).</dd></div>
+        <div class="fragment"><dt>Servo</dt>
+        <dd>for controlling servo motors.</dd></div>
+        <div class="fragment"><dt>Stepper</dt>
+        <dd>for controlling stepper motors.</dd></div>
+        <div class="fragment"><dt>OneWire</dt>
+        <dd>control devices (from Dallas Semiconductor) that use the One Wire protocol.</dd></div>
+        <div class="fragment"><dt>CmdMessenger</dt>
+        <dd>command-oriented version of Messenger for serial communications</dd></div>
+        <dd class="fragment" style="font-size: 110%;">... and many more</dd>
+      </dl>
+    </section>
+  </section>
+  <section>
+    <section>
+      <h1>Demo</h1>
+    </section>
+    <section>
+      <h2>Hello World</h2>
+      <br/><br/>
+      <button id="toggleLED" class="btn btn-large">Toggle The RED LED</button>
+      <br/><br/>
+      <p class="lead fragment roll-in">COME ON! It's too <strong>simple!</strong></p>
+    </section>
+    <section>
+      <h2><span style="text-decoration: underline;">Advanced</span> "Hello World"</h2>
+      <button id="runMorseCode" class="btn btn-large">Hey, LED, say "Hello World"!</button>
+      <div class="lead" id="morseFeedback"></div>
+    </section>
+    <section>
+      <h2>Hello Sensor World</h2>
+      <br/><br/>
+      <div class="boot-progress boot-progress-striped">
+        <div class="bar" id="progressBar" style="width: 15%;"></div>
+      </div>
+    </section>
+  </section>
+  <section>
+    <section>
+      <h1>IOIO</h1>
+      <img src="img/ioio%20logo.png"/>
+    </section>
+    <section>
+      <h2>IOIO for Android</h2>
+      <p>The IOIO (pronounced "yo-yo") is a board specially designed to work with your Android 1.5 and later device. 
+        The board provides robust connectivity to an Android device via a USB or Bluetooth connection.</p>
+      <img src="img/ioio.png"/>
+    </section>
+    <section>
+      <h2>Hello World</h2>
+      <pre><code class="java">
+public class MainActivity extends IOIOActivity {
+  private ToggleButton button_;
+  
+  @Override
+  protected IOIOLooper createIOIOLooper() {
+    return new Looper();
+  }
+  
+  class Looper extends BaseIOIOLooper {
+    //....
+  }
+}
+      </code></pre>
+    </section>
+    <section>
+      <h2>Hello World</h2>
+      <pre><code class="java">
+class Looper extends BaseIOIOLooper {
+  private DigitalOutput led_;
+
+  protected void setup() throws ConnectionLostException {
+    led_ = ioio_.openDigitalOutput(IOIO.LED_PIN, true);
+  }
+
+  public void loop() throws ConnectionLostException {
+    led_.write(!button_.isChecked());
+    try {
+      Thread.sleep(100);
+    } catch (InterruptedException e) {}
+  }
+}</code></pre>
+    </section>
+    <section>
+      <h1>DEMO</h1>
+    </section>
+  </section>
+  <section>
+    <section>
+      <h1>Raspberry Pi</h1>
+      <img src="img/rasberry.png"/>
+    </section>
+    <section>
+      <h2>Rasberry Pi</h2>
+      <div class="gallery">
+        <figure class="showNext">
+          <img src="img/RaspberryPi-board.jpeg">
+          <figcaption>Model B<br/>
+            <small>Just a small computer</small>
+          </figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/rasberry-plan.png">
+          <figcaption>Schema<br/>
+            <small>26-pin GPIO's (General Purpose Input/Output)</small>
+          </figcaption>
+        </figure>
+        <figure class="showNext">
+          <img src="img/gertboard.png">
+          <figcaption>Gertboard - extension board<br/>
+            <small>Use it to flash LEDs on and off, drive motors, run sensors and all that other fun stuff.</small>
+          </figcaption>
+        </figure>
+      </div>
+      <aside class="notes">
+        <ul>
+          <li>Show and present RasPi board</li>
+          <li>What is GPIO?</li>
+          <li>Usually u should use expansion board with pin secured from overcurrent etc.</li>
+        </ul>
+      </aside>
+    </section>
+    <section>
+      <h2>Hello World</h2>
+      <pre><code class="python">import RPi.GPIO as GPIO
+
+# to use Raspberry Pi board pin numbers
+GPIO.setmode(GPIO.BOARD)
+
+# set up GPIO output channel
+GPIO.setup(12, GPIO.OUT)
+
+# set RPi board pin 12 high
+GPIO.output(12, GPIO.HIGH)</code></pre>
+    </section>
+  </section>
+  <section>
+    <section>
+      <h1>Success Stories</h1>
+    </section>
+    <section>
+      <h3>Arduino-Based Laser Controlled Wireless Automatic Cat Feeder</h3>
+      <iframe width="640" height="480" src="http://www.youtube.com/embed/Ao-ukJJ_cyA" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section>
+      <h3>RFID cat door</h3>
+      <iframe src="http://player.vimeo.com/video/18942527?portrait=0&amp;badge=0&amp;color=ffffff" width="300" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><br/>
+      <a href="http://www.instructables.com/id/RFID-cat-door/?ALLSTEPS">DIY on instructables</a>
+    </section>
+    <section>
+      <h3>How to stop cats pissing on your car</h3>
+      <iframe width="853" height="480" src="http://www.youtube.com/embed/uIbkLjjlMV8?rel=0" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section>
+      <h3>Fridge door opener</h3>
+      <iframe width="853" height="480" src="http://www.youtube.com/embed/g0N87qrg2BI?rel=0" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section>
+      <h3>Dummy Electricity meter</h3>
+      <div style="width: 120%;">
+        <img src="img/Electricity_1.png" class="pull-left" style="margin-right: 15px;">
+        <img src="img/Electricity_2.png" class="pull-left" style="margin-right: 15px;">
+        <img src="img/Electricity_3.png" class="pull-left">
+      </div>
+    </section>
+  </section>
+</div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls:true,
+    progress:true,
+    history:true,
+
+    theme:Reveal.getQueryHash().theme, // available themes are in /css/theme
+    transition:Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+    // Optional libraries used to extend on reveal.js
+    dependencies:[
+      { src:'lib/js/classList.js', condition:function () { return !document.body.classList; } },
+      { src:'plugin/markdown/showdown.js', condition:function () { return !!document.querySelector('[data-markdown]'); } },
+      { src:'plugin/markdown/markdown.js', condition:function () { return !!document.querySelector('[data-markdown]'); } },
+      { src:'plugin/highlight/highlight.js', async:true, callback:function () { hljs.initHighlightingOnLoad(); } },
+      { src:'plugin/zoom-js/zoom.js', async:true, condition:function () { return !!document.body.classList; } },
+      { src:'plugin/notes/notes.js', async:true, condition:function () { return !!document.body.classList; } },
+      { src:'/socket.io/socket.io.js', async: true },
+      { src:'plugin/notes-server/client.js', async: true }
+    ]
+  });
+
+</script>
+
+</body>
+</html>
