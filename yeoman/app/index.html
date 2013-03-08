@@ -1,0 +1,414 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><html class="no-js"><![endif]-->
+<head xmlns="http://www.w3.org/1999/html">
+  <title>Grunt + Bower + Yo = Yeoman</title>
+
+  <meta name="description" content="Presentation about Yeoman">
+  <meta name="author" content="Aleksandr Motsjonov">
+
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta charset="utf-8">
+
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Lekton|Ubuntu+Mono:400,700" rel="stylesheet">
+
+  <!-- build:css styles/style.css -->
+  <link rel="stylesheet" href="components/reveal.js/css/reveal.min.css">
+  <link rel="stylesheet" href="components/reveal.js/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="components/reveal.js/lib/css/zenburn.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+  <!-- For syntax highlighting -->
+
+  <!--[if lt IE 9]>
+  <script src="components/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+<section>
+  <h1>Yeoman</h1>
+  <h3 class="no-caps">with Grunt and Bower friends</h3>
+  <p>
+    <small>By Aleksandr Motsjonov</small>
+  </p>
+</section>
+
+<section>
+  <h2>Problem Definition</h2>
+  <ul class="sparse">
+    <li><strong>Trend:</strong> Heavy loaded front-end with REST backend</li>
+    <li><strong>Specific needs.</strong> Compilation steps: CoffeeScript, SCSS, Handlebars. Uglifying,
+      minimization, etc.</li>
+    <li>Need for development/build/distribution tools</li>
+  </ul>
+  <aside class="notes">
+    So, what is the problem?
+    In the modern web development there is a architecture trend. Today web applications are made so,
+    that there is a heavy front end, often consisting of only one page actual html file with bunch of
+    javascript. And there is REST backend, which communicates with js via ajax requests.
+
+    And having all this there is stuff like CoffeeScript which you need to compile down to javascript,
+    SCSS to CSS, Handlebars for templates compilation etc. Plus in the end tou need to combine, uglify
+    minimize etc.
+
+    All this takes time, so better have some tools to automate it.
+  </aside>
+</section>
+
+<section>
+  <section>
+    <img src="https://raw.github.com/yeoman/yeoman.io/gh-pages/media/yeoman-600x600.jpg"
+         alt="Yeoman logo" style="max-height: 70%">
+    <blockquote class="fragment">
+      A servant in a royal or noble household, ranking between a sergeant and a groom or a squire and a page
+    </blockquote>
+    <aside class="notes">
+      So, one of the possible solutions is yeoman!
+    </aside>
+  </section>
+  <section>
+    <h2>Yeoman's friends</h2>
+    <img src="https://raw.github.com/yeoman/yeoman.io/gh-pages/media/toolset.png"
+         alt="Yeoman's friends" class="white">
+  </section>
+</section>
+
+<section>
+  <section>
+    <img src="images/bower-logo.png" alt="Bower" class="white">
+    <blockquote class="fragment">
+      A pleasant shady place.
+    </blockquote>
+  </section>
+  <section>
+    <h2>Definition</h2>
+    <p class="fragment">Bower is a <strong>package manager</strong> for the web. Bower lets you easily install assets such as <strong>images, CSS and JavaScript</strong>, and manages dependencies for you.</p>
+  </section>
+  <section>
+    <h2>One of many</h2>
+    <ul class="sparse">
+      <li class="fragment"><a href="https://npmjs.org/"><code>npm</code></a>, <a href="http://ender.jit.su/"><code>Ender</code></a>, <a href="https://github.com/volojs/volo"><code>volo</code></a>, <a href="http://component.io/"><code>component</code></a></li>
+      <li class="fragment">The idea is that Bower does package management and package management <strong>only</strong>.</li>
+      <li class="fragment">Have third-party assets in your source it bad idea.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>How it works</h2>
+    <pre><code contenteditable style="font-size: 24px; margin-top: 20px; padding: 10px; line-height:40px">bower install jquery
+bower search jquery
+bower install --save jquery</code></pre>
+
+  </section>
+  <section>
+    <h2 class="no-caps">package.json</h2>
+    <pre><code contenteditable style="font-size: 24px; line-height:30px">{
+  "name": "yeoman",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.9.1",
+    "reveal.js": "latest"
+  },
+  "devDependencies": {}
+}</code></pre>
+    <pre><code contenteditable style="font-size: 24px; margin-top: 20px; padding: 10px; line-height:40px">bower install</code></pre>
+  </section>
+  <section>
+    <pre><code class="no-highlight">├── <strong>components</strong>
+│   ├── <strong>jquery</strong>
+│   │   ├── component.json
+│   │   ├── composer.json
+│   │   ├── jquery-migrate.js
+│   │   ├── jquery-migrate.min.js
+│   │   ├── jquery.js
+│   │   └── jquery.min.js
+│   ├── <strong>modernizr</strong>
+│   │   ├── component.json
+│   │   ├── feature-detects
+│   │   │   ├── a-download.js
+│   │   │   ├── audio-audiodata-api.js
+│   │   │   ├── window-framed.js
+│   │   │   ├── workers-blobworkers.js
+│   │   │   ├── workers-dataworkers.js
+│   │   │   └── workers-sharedworkers.js
+│   │   ├── grunt.js
+│   │   ├── media
+│   │   │   ├── Modernizr\ 2\ Logo.ai
+│   │   │   ├── Modernizr\ 2\ Logo.eps
+│   │   │   ├── Modernizr\ 2\ Logo.pdf
+│   │   │   ├── Modernizr\ 2\ Logo.png
+│   │   │   └── Modernizr\ 2\ Logo.svg
+│   │   ├── modernizr.js
+│   │   ├── readme.md
+│   │   └── test
+│   │       ├── basic.html
+│   │       ├── caniuse.html
+│   │       ├── caniuse_files
+│   │       │   ├── Windsong-webfont.eot
+│   │       │   ├── Windsong-webfont.otf
+│   │       │   ├── text-shadow2.png
+│   │       │   ├── windsong_font.png
+│   │       │   └── xhtml.html
+│   │       ├── index.html
+│   │       ├── js
+│   │       │   ├── basic.html
+│   │       │   ├── dumpdata.js
+│   │       │   ├── lib
+│   │       │   │   ├── detect-global.js
+│   │       │   │   ├── jquery-1.7b2.js
+│   │       │   │   ├── jsonselect.js
+│   │       │   │   ├── polyfills.js
+│   │       │   │   └── uaparser.js
+│   │       │   ├── setup.js
+│   │       │   ├── unit-caniuse.js
+│   │       │   └── unit.js
+│   │       └── qunit
+│   │           ├── qunit.css
+│   │           ├── qunit.js
+│   │           └── run-qunit.js
+│   └── <strong>reveal.js</strong>
+│       ├── Gruntfile.js
+│       ├── LICENSE
+│       ├── README.md
+│       ├── component.json
+│       ├── css
+│       │   ├── print
+│       │   │   ├── paper.css
+│       │   │   └── pdf.css
+│       │   ├── reveal.css
+│       │   ├── reveal.min.css
+│       │   └── theme
+│       │       ├── README.md
+│       │       ├── beige.css
+│       │       ├── default.css
+│       │       ├── night.css
+│       │       ├── serif.css
+│       │       ├── simple.css
+│       │       ├── sky.css
+│       │       ├── source
+│       │       │   ├── beige.scss
+│       │       │   ├── default.scss
+│       │       │   ├── night.scss
+│       │       │   ├── serif.scss
+│       │       │   ├── simple.scss
+│       │       │   └── sky.scss
+│       │       └── template
+│       │           ├── mixins.scss
+│       │           ├── settings.scss
+│       │           └── theme.scss
+│       ├── index.html
+│       ├── js
+│       │   ├── reveal.js
+│       │   └── reveal.min.js
+│       ├── lib
+│       │   ├── css
+│       │   │   └── zenburn.css
+│       │   ├── font
+│       │   │   ├── league_gothic-webfont.eot
+│       │   │   ├── league_gothic-webfont.svg
+│       │   │   ├── league_gothic-webfont.ttf
+│       │   │   ├── league_gothic-webfont.woff
+│       │   │   └── league_gothic_license
+│       │   └── js
+│       │       ├── classList.js
+│       │       ├── head.min.js
+│       │       └── html5shiv.js
+│       ├── package.json
+│       └── plugin
+│           ├── highlight
+│           │   └── highlight.js
+│           ├── markdown
+│           │   ├── example.html
+│           │   ├── example.md
+│           │   ├── markdown.js
+│           │   └── showdown.js
+│           ├── notes
+│           │   ├── notes.html
+│           │   └── notes.js
+│           ├── notes-server
+│           │   ├── client.js
+│           │   ├── index.js
+│           │   └── notes.html
+│           ├── postmessage
+│           │   ├── example.html
+│           │   └── postmessage.js
+│           ├── print-pdf
+│           │   └── print-pdf.js
+│           ├── remotes
+│           │   └── remotes.js
+│           └── zoom-js
+│               └── zoom.js</code></pre>
+  </section>
+</section>
+
+<section>
+  <section>
+    <img src="http://gruntjs.com/img/grunt-logo.png" alt="GRUNT" class="white">
+    <blockquote class="fragment">
+      A low, short guttural sound made by an animal or a person
+    </blockquote>
+  </section>
+  <section>
+    <h2>Definition</h2>
+    <p class="fragment">The JavaScript <strong>Task Runner</strong></p>
+    <p class="fragment">... it's like Makefile, Ant, Maven, Gradle, Rake</p>
+  </section>
+  <section>
+    <h2>Why?</h2>
+    <p class="fragment">Front-end developers <strong>workflow automation</strong>.</p>
+  </section>
+  <section>
+    <h2>plugins and tasks</h2>
+    <ul class="sparse">
+      <div class="fragment">
+        <li>There is tons of <strong>plugins</strong> for grunt</li>
+        <li>It's easy to write own <span class="fragment">in <strong>javascript</strong></span></li>
+      </div>
+      <li class="fragment">Each plugin define one or more <strong>tasks</strong></li>
+      <div class="fragment">
+        <li>Task can be configured in <strong><code>Gruntfile.js</code></strong></li>
+        <li>When configured it can be executed with <strong><code>grunt task</code></strong> command</li>
+      </div>
+    </ul>
+  </section>
+  <section>
+    <h2 class="no-caps">Gruntfile.js and target</h2>
+    <pre><code contenteditable class="javascript" style="font-size: 24px; margin-top: 20px; padding: 10px; line-height:30px"
+>grunt.initConfig({
+  <strong>task</strong>: {  //Task configuration
+    <strong class="blue">target1</strong>: {
+      // Config for specific target
+    },
+    target2: {
+      // Config for specific target
+    }
+  }
+});</code></pre>
+    <pre class="fragment"><code contenteditable class="bash" style="font-size: 24px; margin-top: 20px; padding: 10px; line-height:30px"
+>grunt <strong>task</strong>:<strong class="blue">target1</strong></code></pre>
+    <pre class="fragment"><code contenteditable class="bash" style="font-size: 24px; margin-top: 20px; padding: 10px; line-height:30px"
+>grunt <strong>task</strong> # Runs both targets</code></pre>
+  </section>
+  <section>
+<pre><code contenteditable class="javascript" style="font-size: 24px; margin-top: 20px; padding: 10px; line-height:30px"
+>grunt.initConfig({
+  <strong>coffee</strong>: {
+    <strong class="blue">dist</strong>: {
+        files: [{
+            expand: true,
+            cwd: '<%= yeoman.app %>/scripts',
+            src: '*.coffee',
+            dest: '.tmp/scripts',
+            ext: '.js'
+        }]
+    },
+    <strong class="blue">test</strong>: {
+        files: [{
+            expand: true,
+            cwd: '.tmp/spec',
+            src: '*.coffee',
+            dest: 'test/spec'
+        }]
+    }
+  }
+});</code></pre>
+  </section>
+  <section>
+    <h2>Composite tasks</h2>
+    <pre><code contenteditable class="javascript" style="font-size: 24px; margin-top: 20px; padding: 10px; line-height:30px"
+>grunt.registerTask(<strong>'test'</strong>, [
+  'clean:server',
+  'coffee',
+  'compass',
+  'connect:test',
+  'mocha'
+]);</code></pre>
+  <pre class="fragment"><code contenteditable class="bash" style="font-size: 24px; margin-top: 20px; padding: 10px; line-height:30px"
+>grunt <strong>test</strong></code></pre>
+  </section>
+  <section>
+    <h2>Variety of plugins</h2>
+    <code>clean, coffee, compass, compress, concat, connect, copy, cssmin, handlebars, htmlmin, imagemin, jade, jasmine, jshint, jst, less, livereload, nodeunit, qunit, requirejs, sass, stylus, uglify, watch, yuidoc</code>
+    <p class="fragment" style="margin-top:30px">and <strong>477 more</strong> from community</p>
+  </section>
+</section>
+
+<section>
+  <section><img src="images/yo.png" alt="yo" class="white"></section>
+  <section>
+    <h2>Definition</h2>
+    <p class="fragment"><code>yo</code> <strong>scaffolds out a new application</strong>, writing your Grunt configuration and pulling in relevant <strong>Grunt tasks</strong> that you might need for your build.</p>
+  </section>
+  <section>
+    <h2>Scaffolding</h2>
+    <pre ><code contenteditable class="bash" style="font-size: 24px; margin-top: 20px; padding: 10px; line-height:30px"
+        >yo webapp</code></pre>
+
+    <pre class="fragment"><code class="no-highlight">├── component.json
+├── package.json
+├── Gruntfile.js
+├── app
+│   ├── 404.html
+│   ├── favicon.ico
+│   ├── images
+│   ├── index.html
+│   ├── robots.txt
+│   ├── scripts
+│   │   ├── hello.coffee
+│   │   └── main.js
+│   └── styles
+│       └── main.scss
+└── test
+    ├── index.html
+    ├── lib
+    │   ├── chai.js
+    │   ├── expect.js
+    │   └── mocha
+    │       ├── mocha.css
+    │       └── mocha.js
+    └── spec
+        └── test.js</code></pre>
+  </section>
+  <section>
+    <h2>Process</h2>
+    <img src="https://raw.github.com/yeoman/yeoman.io/gh-pages/media/workflow.jpg" alt="Workflow">
+  </section>
+</section>
+<section><h1>Demo time</h1></section>
+<section><h1>Thank you!</h1></section>
+</div>
+
+
+</div>
+
+
+  <!--[if lt IE 7]>
+  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to
+    improve your experience.</p>
+  <![endif]-->
+
+  <!-- build:js scripts/main.js -->
+  <script src="components/jquery/jquery.js"></script>
+  <script src="components/reveal.js/lib/js/head.min.js"></script>
+  <script src="components/reveal.js/js/reveal.js"></script>
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
