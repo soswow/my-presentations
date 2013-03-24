@@ -1,0 +1,32 @@
+.reveal{
+  h1,h2,h3{
+    font-family: "Ubuntu Mono";
+    margin-bottom: 40px;
+    &.no-caps{
+      text-transform: none;
+    }
+  }
+
+  ul.sparse li {
+    margin-bottom: 20px;
+  }
+
+  strong{
+    color: rgb(41, 204, 74);
+    &.blue{
+      color: rgb(53, 150, 255);
+    }
+  }
+
+  .white{
+    background: white;
+  }
+}
+
+.reveal .slides>section {
+  min-height: 90%;
+}
+
+.reveal .slides>section>section {
+  min-height: 100%;
+}
