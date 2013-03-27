@@ -149,21 +149,6 @@ module.exports = function (grunt) {
                 }
             }
         },
-        // not used since Uglify task does concat,
-        // but still available if needed
-        /*concat: {
-            dist: {}
-        },*/
-        
-        uglify: {
-            dist: {
-                files: {
-                    '<%= yeoman.dist %>/scripts/main.js': [
-                        '<%= yeoman.dist %>/scripts/main.js'
-                    ]
-                }
-            }
-        },
         useminPrepare: {
             html: '<%= yeoman.app %>/index.html',
             options: {
@@ -226,7 +211,7 @@ module.exports = function (grunt) {
                     cwd: '<%= yeoman.app %>',
                     dest: '<%= yeoman.dist %>',
                     src: [
-                        '*.{ico,txt}',
+                        '*.{ico,txt,html}',
                         '.htaccess'
                     ]
                 }]
@@ -275,8 +260,7 @@ module.exports = function (grunt) {
         'concat',
         'cssmin',
         'copy',
-        'usemin',
-        'uglify'
+        'usemin'
     ]);
 
     grunt.registerTask('default', [
