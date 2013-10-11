@@ -2,7 +2,7 @@ Resume - Aleksandr Motsjonov
 ======================
 **soswow@gmail.com** - Tallinn, Estonia (UTC +2/+3)
 
-I am a Front-Ender, Hacker and a Geek.
+I am a Frontend engeneer, Hacker and a Geek.
 
 Some random stuff I do and know
 ----------------------
