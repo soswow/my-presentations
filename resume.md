@@ -2,18 +2,22 @@ Resume - Aleksandr Motsjonov
 ======================
 **soswow@gmail.com** - Tallinn, Estonia (UTC +2/+3)
 
-I am a Frontend engeneer, Hacker and a Geek.
+I am a Frontend engineer, Hacker and a Geek.
 
 Some random stuff I do and know
 ----------------------
 * **General programming skills**
   OOP, FP, Algorithms, Control flows, ...
+
 * **JavaScript**
   Backbone, CoffeeScript, NodeJs, jQuery, Grunt, Yo, ...
+
 * **Other parts of the Web stack**
   DOM, CSS3/SASS, HTML5 components, Canvas, Websocket, other APIs
+
 * **Best practices**
  TDD, BDD, XP methods, DRY, KISS, all this kind of stuff
+
 * **Backend technologies**
   NodeJS, Java, Python
 
