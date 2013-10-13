@@ -47,14 +47,12 @@ Where and what I did briefly
 ----------------------
 * Toggl           — **CoffeeScript, Backbone, Grunt** — *0.8 year*
 * Zeroturnaround  — **Java, JavaScript, Python** — *1 year*
-* 300.mg          — **Ruby, CoffeeScript** — *time-2-time* *
+* 300.mg          — **Ruby, CoffeeScript** — *time-2-time* (remotely)
 * Swedbank        — **Java, JavaScript** — *2 years*
-* Matvil Corporation — **Python, Django, Solr** — *½ years* *
+* Matvil Corporation — **Python, Django, Solr** — *½ years* (remotely)
 * Tallink         — **Java, JavaScript** — *1 year*
-* Mozilla Corp.   — **Python, JavaScript** — *3 months* *
+* Mozilla Corp.   — **Python, JavaScript** — *3 months* (remotely)
 * SQA Partners    — **Java, JavaScript** — *~ 4 years*
-
-\* worked remotely
 
 
 Work Experience in more details
@@ -130,8 +128,7 @@ This was my first programming experience, my Alma mater as I think about it. Mai
 
 Education
 ----------------------
-**2008 - 2011** Bachelor of Applied Sciences (in Informatics) from Estonian Entrepreneurship University
-
+**2008 - 2011** Bachelor of Applied Sciences (in Informatics) from Estonian Entrepreneurship University<br/>
 Graduation *cum laude*. Diploma thesis was “Face detection and tracking method, based on neural networks and skin color segmentation.” [summary](http://goo.gl/5D2097)
 
 Different modern on-line courses (AI-class, Coursera, Udacity, EdX)
