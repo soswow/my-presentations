@@ -56,17 +56,17 @@ Software engineer / Web developer for supporting existing web projects and parti
 **Technologies:**
 Java, JavaScript, Python, CoffeeScript, Node.js, Play!, Play! 2
 
-During my work in ZT I helped finish two big Web projects [myJRebel](http://my.jrebel.com) and [License Server 2.0](http://zeroturnaround.com/software/jrebel/download/license-server/). Also wrote functional tests for ZT’s main web-site using python.
+During my work in ZT I helped finish two big Web projects: [myJRebel](http://my.jrebel.com) and [License Server 2.0](http://zeroturnaround.com/software/jrebel/download/license-server/). Also wrote functional tests for ZT’s main web-site using python.
 
 
-### 05/2010 - 03/2012 — Java Software Engineer @ [Swedbank](https://www.swedbank.ee)
+### 05/2010 - 03/2012 — Front-end Java Software Engineer @ [Swedbank](https://www.swedbank.ee)
 
 **Position:**
 Software engineer in the IT department of “Large corporates & Institutions” (Java + JS)
 
 **Responsibilities:**
 * New business requirements development in all applications related to stock market (including Internet Bank, and administrative application for tellers).
-* Bug fixing and maintenance of current code base
+* Maintenance of current code base
 
 **Technologies:** Java, XLST transformations, JavaScript, Oracle
 
@@ -96,7 +96,7 @@ Django development + integration with third party’s e-book content provider.
 * Working remotely
 
 
-### 04/2009 - 05/2010 - Java Web Developer @ [AS Tallink Group IT](https://booking.tallink.com)
+### 04/2009 - 05/2010 - Front-end Java Web Developer @ [AS Tallink Group IT](https://booking.tallink.com)
 **Position:**
 Java Web Developer - Front-end and server-side (Java)
 
@@ -116,6 +116,6 @@ Official Education
 ----------------------
 **2008 - 2011** Bachelor of Applied Sciences (in Informatics) from Estonian Entrepreneurship University
 
-Graduation *cum laude*. Diploma thesis is “Face detection and tracking method, based on neural networks and skin color segmentation.” [summary](http://goo.gl/5D2097)
+Graduation *cum laude*. Diploma thesis was “Face detection and tracking method, based on neural networks and skin color segmentation.” [summary](http://goo.gl/5D2097)
 
 Different modern on-line courses (AI-class, Coursera, Udacity, EdX)
