@@ -109,10 +109,7 @@ Django development + integration with third party’s e-book content provider.
 * Development of the batch process for integration with a E-book provider via REST API  (Python).
 
 **Experience gained:**
-* Development with Django framework
-* Full text search engine configuration
-* Git
-* Working remotely
+Development with Django framework, Full text search engine configuration, Git, Working remotely
 
 
 ### 04/2009 - 05/2010 - Front-end Java Web Developer @ [AS Tallink Group IT](https://booking.tallink.com)
