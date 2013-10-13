@@ -1,3 +1,11 @@
+<script>
+//This is 3 lines to generate PDF from print.
+var article = $("article").detach();
+$(".site > .container").empty().append(article);
+$(".site-footer, .pagehead, .header").remove();
+window.print();
+</script>
+
 Resume - Aleksandr Motsjonov
 ======================
 **soswow@gmail.com** - Tallinn, Estonia (UTC +2/+3)
