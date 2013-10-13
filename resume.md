@@ -12,26 +12,33 @@ Resume - Aleksandr Motsjonov
 
 I am a Frontend engineer with Java background, Hacker and a Geek.
 
+
+Personal Profile
+----------------------
+* Decent 7+ years programming experience, mostly in Java and JavaScript; also in Python and Ruby
+* Competent in object-oriented analysis/design, functional programming and database programming
+* Good troubleshooting and analytics skills; business oriented
+* Good interpersonal skills; great team-worker; calm and emotionally mature
+
+
 Some random stuff I do and know
 ----------------------
 <dl>
   <dt>General programming skills</dt>
   <dd>OOP, FP, Algorithms, Control flows, Data structures, Design Patterns, ...</dd>
-  
+
   <dt>JavaScript</dt>
   <dd>Backbone, CoffeeScript, NodeJs, jQuery, Grunt, Yo, ...</dd>
-  
+
   <dt>Other parts of the Web stack</dt>
   <dd>DOM, CSS3/SASS, HTML5 components, Canvas, Websocket, other APIs</dd>
-  
+
   <dt>Best practices</dt>
   <dd>TDD, BDD, XP methods, DRY, KISS, all this kind of stuff</dd>
-  
+
   <dt>Backend technologies</dt>
   <dd>Java (Struts, Spring, ORMs, ...), Python, NodeJS</dd>
-  
 </dl>
-  
 
 Some code examples can be found here https://github.com/soswow
 
@@ -124,10 +131,17 @@ I was working on experimental module of Bespin project, which would parse PSD (P
 This was my first programming experience, my Alma mater as I think about it. Mainly I was responsible for Web UI of all web-projects. During two last projects, which were Web Applications (Java, Struts, iBatis/Hibernate, Oracle) I wrote front-end controllers and a service layer's business logic.
 
 
-Official Education
+Education
 ----------------------
 **2008 - 2011** Bachelor of Applied Sciences (in Informatics) from Estonian Entrepreneurship University
 
 Graduation *cum laude*. Diploma thesis was “Face detection and tracking method, based on neural networks and skin color segmentation.” [summary](http://goo.gl/5D2097)
 
 Different modern on-line courses (AI-class, Coursera, Udacity, EdX)
+
+
+References
+----------------------
+* **Anton Arhipov**, Product Lead @ Zeroturnaround, anton@zeroturnaround.com
+* **Vjatsaslav Rosin**, IT development Team and Project lead @ Tallink, slavarosin@gmail.com
+* **Mark Kofman**, CEO at 300.mg, mark@import2.com
