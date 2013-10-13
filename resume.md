@@ -10,7 +10,7 @@ Resume - Aleksandr Motsjonov
 ======================
 **soswow@gmail.com** - Tallinn, Estonia (UTC +2/+3)
 
-I am a Frontend engineer with Java background, Hacker and a Geek.
+I am a Front-end engineer with Java background, Hacker and a Geek.
 
 
 Personal Profile
@@ -59,7 +59,7 @@ Where and what I did briefly
 
 Work Experience in more details
 ----------------------
-### 03/2013 — Frontend developer @ [Toggl](http://toggl.com)
+### 03/2013 — Front-end developer @ [Toggl](http://toggl.com)
 
 **Technologies:**
 Backbone, CoffeeScript, Grunt, Scss, WebSockets, Offline work, Local storage, Thick client with REST API backend
