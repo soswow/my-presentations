@@ -14,20 +14,24 @@ I am a Frontend engineer with Java background, Hacker and a Geek.
 
 Some random stuff I do and know
 ----------------------
-* **General programming skills**<br/>
-  OOP, FP, Algorithms, Control flows, Data structures, Design Patterns, ...
-
-* **JavaScript**<br/>
-  Backbone, CoffeeScript, NodeJs, jQuery, Grunt, Yo, ...
-
-* **Other parts of the Web stack**<br/>
-  DOM, CSS3/SASS, HTML5 components, Canvas, Websocket, other APIs
-
-* **Best practices**<br/>
-  TDD, BDD, XP methods, DRY, KISS, all this kind of stuff
-
-* **Backend technologies**<br/>
-  Java (Struts, Spring, ORMs, ...), Python, NodeJS
+<dl>
+  <dt>General programming skills</dt>
+  <dd>OOP, FP, Algorithms, Control flows, Data structures, Design Patterns, ...</dd>
+  
+  <dt>JavaScript</dt>
+  <dd>Backbone, CoffeeScript, NodeJs, jQuery, Grunt, Yo, ...</dd>
+  
+  <dt>Other parts of the Web stack</dt>
+  <dd>DOM, CSS3/SASS, HTML5 components, Canvas, Websocket, other APIs</dd>
+  
+  <dt>Best practices</dt>
+  <dd>TDD, BDD, XP methods, DRY, KISS, all this kind of stuff</dd>
+  
+  <dt>Backend technologies</dt>
+  <dd>Java (Struts, Spring, ORMs, ...), Python, NodeJS</dd>
+  
+</dl>
+  
 
 Some code examples can be found here https://github.com/soswow
 
