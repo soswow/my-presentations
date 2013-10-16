@@ -136,6 +136,6 @@ Different modern on-line courses (AI-class, Coursera, Udacity, EdX)
 
 References
 ----------------------
-* **Anton Arhipov**, Product Lead @ Zeroturnaround, anton@zeroturnaround.com
-* **Vjatsaslav Rosin**, IT development Team and Project lead @ Tallink, slavarosin@gmail.com
-* **Mark Kofman**, CEO at 300.mg, mark@import2.com
+* [**Anton Arhipov**](http://www.linkedin.com/in/antonarhipov), Product Lead @ Zeroturnaround, anton@zeroturnaround.com
+* [**Vjatsaslav Rosin**](http://www.linkedin.com/in/slavarosin), IT development Team and Project lead @ Tallink, slava@tallink.ee, slavarosin@gmail.com
+* [**Mark Kofman**](http://www.linkedin.com/in/markkofman), CEO at 300.mg, mark@import2.com
