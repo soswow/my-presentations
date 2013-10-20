@@ -54,6 +54,15 @@ Where and what I did briefly
 * SQA Partners    — **Java, JavaScript** — *~ 4 years*
 
 
+Some of my achievements
+----------------------
+* Working at Toggl me and my colleague delivered completely new version of web application - company main product, 
+using Backbone, CoffeeScript, websockets etc. Lately I created front-end'er [skill testing framework](https://github.com/soswow/lobzik) for Toggl.
+* I implemented new sophisticated stocks chart system while I was working in Swedbank. 
+* As part of a small team I implemented and delivered two successful projects in Zeroturnaround.
+* Once I wrote Photoshop's PSD Python library.
+
+
 Work Experience in more details
 ----------------------
 ### 03/2013 — Front-end developer @ [Toggl](http://toggl.com)
@@ -72,7 +81,7 @@ Software engineer / Web developer for supporting existing web projects and parti
 **Technologies:**
 Java, JavaScript, Python, CoffeeScript, Node.js, Play!, Play! 2
 
-During my work in ZT I helped finish two big Web projects: [myJRebel](http://my.jrebel.com) and [License Server 2.0](http://zeroturnaround.com/software/jrebel/download/license-server/). Also wrote functional tests for ZT’s main web-site using python.
+During my work in ZT I helped finish two big Web projects: [myJRebel](http://my.jrebel.com) and [License Server 2.0](http://zeroturnaround.com/software/jrebel/download/license-server/).Also wrote functional tests for ZT’s main web-site using python.
 
 
 ### 05/2010 - 03/2012 — Front-end Java Software Engineer @ [Swedbank](https://www.swedbank.ee)
