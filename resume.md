@@ -23,22 +23,21 @@ Personal Profile
 
 Some random stuff I do and know
 ----------------------
-<dl>
-  <dt>General programming skills</dt>
-  <dd>OOP, FP, Algorithms, Control flows, Data structures, Design Patterns, ...</dd>
+**General programming skills** <br/>
+OOP, FP, Algorithms, Control flows, Data structures, Design Patterns, ...
 
-  <dt>JavaScript</dt>
-  <dd>Backbone, CoffeeScript, NodeJs, jQuery, Grunt, Yo, ...</dd>
+**JavaScript** <br/>
+CoffeeScript, Backbone, Bootstrap, Foundation, jQuery, Grunt, ...
 
-  <dt>Other parts of the Web stack</dt>
-  <dd>DOM, CSS3/SASS, HTML5 components, Canvas, Websocket, other APIs</dd>
+**Other parts of the Web stack** <br/>
+DOM, CSS3/SASS, HTML5, Canvas, Websocket, other APIs
 
-  <dt>Best practices</dt>
-  <dd>TDD, BDD, XP methods, DRY, KISS, all this kind of stuff</dd>
+**Best practices** <br/>
+TDD, BDD, XP methods, DRY, KISS, all this kind of stuff
 
-  <dt>Backend technologies</dt>
-  <dd>Java (Struts, Spring, ORMs, ...), Python, NodeJS</dd>
-</dl>
+**Backend technologies** <br/>
+Java (Play!, Struts, Spring, ORMs, ...), Python (Django), NodeJS (Express), Ruby (RoR)
+
 
 Some code examples can be found here https://github.com/soswow
 
