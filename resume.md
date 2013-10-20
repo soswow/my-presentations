@@ -65,12 +65,13 @@ using Backbone, CoffeeScript, websockets etc. Lately I created front-end'er [ski
 
 Work Experience in more details
 ----------------------
-### 03/2013 — Front-end developer @ [Toggl](http://toggl.com)
+### 03/2013 — Front-end engineer @ [Toggl](http://toggl.com)
 
 **Technologies:**
 Backbone, CoffeeScript, Grunt, Scss, WebSockets, Offline work, Local storage, Thick client with REST API backend
 
-Maintaining current products codebase and developing [http://new.toggl.com](http://new.toggl.com) - next generation of Toggl timer web application.
+Working at Toggl me and my colleague delivered a completely new version of Toggl's web application. This is thick client app that uses REST backend via AJAX. We used Backbone, CoffeeScript, websockets etc. 
+Lately I created front-end'er skill testing framework for Toggl.
 
 
 ### 03/2012 - 03/2013 — Software Engineer for Web @ [Zeroturnaround](http://zeroturnaround.com)
