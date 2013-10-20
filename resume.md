@@ -33,7 +33,7 @@ CoffeeScript, Backbone, Bootstrap, Foundation, jQuery, Grunt, ...
 DOM, CSS3/SASS, HTML5, Canvas, Websocket, other APIs
 
 **Best practices** <br/>
-TDD, BDD, XP methods, DRY, KISS, all this kind of stuff
+TDD (JUnit), BDD(Jasmine), XP methods, DRY, KISS, all this kind of stuff
 
 **Backend technologies** <br/>
 Java (Play!, Struts, Spring, ORMs, ...), Python (Django), NodeJS (Express), Ruby (RoR)
