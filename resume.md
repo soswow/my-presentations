@@ -29,6 +29,9 @@ TDD (JUnit), BDD(Jasmine), XP methods, DRY, KISS, all this kind of stuff
 **Backend technologies** <br/>
 Java (Play!, Struts, Spring, ORMs), Python (Django), NodeJS (Express), Ruby (RoR)
 
+**Infrastructure** <br/>
+Intellij IDEA / Eclipse, Git / SVN, Grunt / Maven / Ant, Jenkins, Bash
+
 
 Some code examples can be found here https://github.com/soswow
 
