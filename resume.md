@@ -43,7 +43,7 @@ Every applicant can test his or her knowledge and show their coding skills. [Scr
 * While working at Swedbank I replaced their dated Flash-based stock chart components with modern HTML5 code [Screenshots](http://goo.gl/yI68vj).
 * With a colleague at Zeroturnaround, I delivered two successful web projects using Java and the Play! web framework in three months! [Screenshots](http://goo.gl/NW71iC)
 * Graduated *cum laude* with my diploma thesis "Face Detection and Tracking Method Based on Neural Networks and Skin Color Segmentation" [summary](http://goo.gl/5D2097)
-* Co-organized and given more than ten talks at local developer community meetups
+* Co-organized and given more than ten talks at local developer community meetups ([Devclub](http://www.devclub.eu/people/))
 
 
 Work Experience briefly
