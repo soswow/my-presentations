@@ -10,7 +10,9 @@ Résumé - Aleksandr Motsjonov
 ======================
 **soswow@gmail.com** - Tallinn, Estonia (UTC +2/+3)
 
-I am a professional Front-end engineer with Java background, hacker and a geek.
+I am a professional Front-end engineer with Java background, hacker and a geek. <br/>
+Some code examples can be found here https://github.com/soswow
+
 
 Some random stuff I do and know
 ----------------------
@@ -32,8 +34,6 @@ Java (Play!, Struts, Spring, ORMs), Python (Django), NodeJS (Express), Ruby (RoR
 **Infrastructure** <br/>
 Intellij IDEA / Eclipse, Git / SVN, Grunt / Maven / Ant, Jenkins, Bash
 
-
-Some code examples can be found here https://github.com/soswow
 
 Personal Profile
 ----------------------
