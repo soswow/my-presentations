@@ -6,7 +6,7 @@ $(".site-footer, .pagehead, .header").remove();
 window.print();
 </script>
 
-Resume - Aleksandr Motsjonov
+Résumé - Aleksandr Motsjonov
 ======================
 **soswow@gmail.com** - Tallinn, Estonia (UTC +2/+3)
 
