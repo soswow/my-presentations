@@ -43,7 +43,7 @@ Every applicant can test his or her knowledge and show their coding skills. [Scr
 * While working at Swedbank I replaced their dated Flash-based stock chart components with modern HTML5 code [Screenshots](http://goo.gl/yI68vj).
 * With a colleague at Zeroturnaround, I delivered two successful web projects using Java and the Play! web framework in three months! [Screenshots](http://goo.gl/NW71iC)
 * Graduated *cum laude* with my diploma thesis "Face Detection and Tracking Method Based on Neural Networks and Skin Color Segmentation" [summary](http://goo.gl/5D2097)
-* More than 10 talks on local developers community meetups, which I co-orginize
+* Co-organized and given more than ten talks at local developer community meetups
 
 
 Work Experience briefly
@@ -93,7 +93,7 @@ With a colleague at Zeroturnaround, I delivered two successful web projects
 ([myJRebel](http://my.jrebel.com) and [License Server 2.0](http://goo.gl/BvPfJ5)) using Java and 
 the Play! web framework in three months! [Screenshots](http://goo.gl/NW71iC)
 
-During another project I implmemented Acceptence / UI tests for company main website using Python. 
+During another project I implemented Acceptance / UI tests for company main website using Python. 
 Main goal of this project was to keep integrity of the website crucial parts.
 
 ### 05/2010 - 03/2012 — Front-end Java Software Engineer @ [Swedbank](https://www.swedbank.ee)
