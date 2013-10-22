@@ -13,14 +13,6 @@ Resume - Aleksandr Motsjonov
 I am a Front-end engineer with Java background, Hacker and a Geek.
 
 
-Personal Profile
-----------------------
-* Decent 7+ years programming experience, mostly in Java and JavaScript; also in Python and Ruby
-* Competent in object-oriented analysis/design, functional programming and database programming
-* Good troubleshooting and analytics skills; business oriented
-* Good interpersonal skills; great team-worker; calm and emotionally mature
-
-
 Some random stuff I do and know
 ----------------------
 **General programming skills** <br/>
@@ -40,6 +32,13 @@ Java (Play!, Struts, Spring, ORMs, ...), Python (Django), NodeJS (Express), Ruby
 
 
 Some code examples can be found here https://github.com/soswow
+
+Personal Profile
+----------------------
+* Decent 7+ years programming experience, mostly in Java and JavaScript; also in Python and Ruby
+* Competent in object-oriented analysis/design, functional programming and database programming
+* Good troubleshooting and analytics skills; business oriented
+* Good interpersonal skills; great team-worker; calm and emotionally mature
 
 
 Where and what I did briefly
