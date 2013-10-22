@@ -8,13 +8,11 @@ window.print();
 
 Résumé - Aleksandr Motsjonov
 ======================
-**soswow@gmail.com** - Tallinn, Estonia (UTC +2/+3)
+**soswow@gmail.com**, [*github.com/soswow*](http://github.com/soswow) - Tallinn, Estonia (UTC+2)
 
-I am a professional Front-end engineer with Java background, hacker and a geek. <br/>
-Some code examples can be found here https://github.com/soswow
+I am a professional Front-end engineer with Java background, hacker and a geek <br/>
 
-
-Some random stuff I do and know
+General expertise
 ----------------------
 **General programming skills** <br/>
 OOP, FP, Algorithms, Control flows, Data structures, Design Patterns
@@ -26,7 +24,7 @@ CoffeeScript, Backbone, Bootstrap, Foundation, jQuery, Grunt
 DOM, CSS3/SASS, HTML5, Canvas, Websocket, other APIs
 
 **Best practices** <br/>
-TDD (JUnit), BDD(Jasmine), XP methods, DRY, KISS, all this kind of stuff
+TDD (JUnit), BDD(Jasmine), XP methods, DRY, KISS
 
 **Backend technologies** <br/>
 Java (Play!, Struts, Spring, ORMs), Python (Django), NodeJS (Express), Ruby (RoR)
@@ -35,33 +33,37 @@ Java (Play!, Struts, Spring, ORMs), Python (Django), NodeJS (Express), Ruby (RoR
 Intellij IDEA / Eclipse, Git / SVN, Grunt / Maven / Ant, Jenkins, Bash
 
 
-Personal Profile
+Achievements
 ----------------------
-* Decent 7+ years programming experience, mostly in JavaScript and Java; also in Python and Ruby
-* Competent in object-oriented analysis/design, functional programming and database programming
-* Good troubleshooting and analytics skills; business oriented
-* Good interpersonal skills; great team-worker; calm and emotionally mature
+* As part of the Toggl development team I developed a completely new web experience for our user base of more than 500,000. 
+I modularized our client-side Backbone code in order to increase maintainability and facilitate its re-use. 
+It utilizes websockets for instantaneous synchronization and can also work offline. [Screenhots](http://goo.gl/ock3gT)
+* I wrote the web application for Toggl's hiring campaign as a personal initiative. 
+Every applicant can test his or her knowledge and show their coding skills. [Screenshots](http://goo.gl/6aTWse) I released this code as an [open source](https://github.com/soswow/lobzik) project.
+* While working at Swedbank I replaced their dated Flash-based stock chart components with modern HTML5 code [Screenshots](http://goo.gl/yI68vj).
+* With a colleague at Zeroturnaround, I delivered two successful web projects using Java and the Play! web framework in three months! [Screenshots](http://goo.gl/NW71iC)
+* Graduated *cum laude* with my diploma thesis "Face Detection and Tracking Method Based on Neural Networks and Skin Color Segmentation" [summary](http://goo.gl/5D2097)
+* More than 10 talks on local developers community meetups, which I co-orginize
 
 
-Where and what I did briefly
+Work Experience briefly
 ----------------------
-* Toggl           — **CoffeeScript, Backbone, Grunt** — *0.8 year*
+* Toggl           — **CoffeeScript, Backbone, Grunt** — *1 year*
 * Zeroturnaround  — **Java, JavaScript, Python** — *1 year*
-* 300.mg          — **Ruby, CoffeeScript** — *time-2-time* (remotely)
+* 300.mg          — **Ruby, CoffeeScript** — *freelance*
 * Swedbank        — **Java, JavaScript** — *2 years*
-* Matvil Corporation — **Python, Django, Solr** — *½ years* (remotely)
+* Matvil Corporation — **Python, Django, Solr** — *freelance*
 * Tallink         — **Java, JavaScript** — *1 year*
 * Mozilla Corp.   — **Python, JavaScript** — *3 months* (remotely)
 * SQA Partners    — **Java, JavaScript** — *~ 4 years*
 
 
-Some of my achievements
+Personal Profile
 ----------------------
-* Working at Toggl me and my colleague delivered completely new version of web application - company main product, 
-using Backbone, CoffeeScript, websockets etc. Lately I created front-end'er [skill testing framework](https://github.com/soswow/lobzik) for Toggl.
-* I implemented new sophisticated stocks chart system while I was working in Swedbank. 
-* As part of a small team I implemented and delivered two successful projects in Zeroturnaround.
-* Once I wrote Photoshop's PSD Python library.
+* 7+ years programming experience, mostly in JavaScript and Java; also in Python and Ruby
+* Competent in object-oriented analysis/design, functional programming and database programming
+* Excellent troubleshooting and analytics skills; business oriented
+* Excellent interpersonal skills; great team-worker; calm and emotionally mature
 
 
 Work Experience in more details
@@ -71,9 +73,13 @@ Work Experience in more details
 **Technologies:**
 Backbone, CoffeeScript, Grunt, Scss, WebSockets, Offline work, Local storage, Thick client with REST API backend
 
-Working at Toggl me and my colleague delivered a completely new version of Toggl's web application. This is thick client app that uses REST backend via AJAX. We used Backbone, CoffeeScript, websockets etc. 
-Lately I created front-end'er skill testing framework for Toggl.
+As part of the Toggl development team I developed a completely new web experience for our user base of more than 500,000. 
+This is complete static client-side application that uses REST API on backend. 
+I modularized our client-side Backbone code in order to increase maintainability and facilitate its re-use. 
+It utilizes websockets for instantaneous synchronization and can also work offline. [Screenhots](http://goo.gl/ock3gT)
 
+I wrote the web application for Toggl's hiring campaign as a personal initiative. 
+Every applicant can test his or her knowledge and show their coding skills. [Screenshots](http://goo.gl/6aTWse) I released this code as an [open source](https://github.com/soswow/lobzik) project.
 
 ### 03/2012 - 03/2013 — Software Engineer for Web @ [Zeroturnaround](http://zeroturnaround.com)
 
@@ -83,8 +89,12 @@ Software engineer / Web developer for supporting existing web projects and parti
 **Technologies:**
 Java, JavaScript, Python, CoffeeScript, Node.js, Play!, Play! 2
 
-During my work in ZT I helped finish two big Web projects: [myJRebel](http://my.jrebel.com) and [License Server 2.0](http://zeroturnaround.com/software/jrebel/download/license-server/).Also wrote functional tests for ZT’s main web-site using python.
+With a colleague at Zeroturnaround, I delivered two successful web projects 
+([myJRebel](http://my.jrebel.com) and [License Server 2.0](http://goo.gl/BvPfJ5)) using Java and 
+the Play! web framework in three months! [Screenshots](http://goo.gl/NW71iC)
 
+During another project I implmemented Acceptence / UI tests for company main website using Python. 
+Main goal of this project was to keep integrity of the website crucial parts.
 
 ### 05/2010 - 03/2012 — Front-end Java Software Engineer @ [Swedbank](https://www.swedbank.ee)
 
@@ -141,7 +151,15 @@ Education
 **2008 - 2011** Bachelor of Applied Sciences (in Informatics) from Estonian Entrepreneurship University<br/>
 Graduation *cum laude*. Diploma thesis was “Face detection and tracking method, based on neural networks and skin color segmentation.” [summary](http://goo.gl/5D2097)
 
-Different modern on-line courses (AI-class, Coursera, Udacity, EdX)
+*Online courses:*
+* Introduction to Artificial Intelligence (by Peter Norvig and Sebastian Thrun) - 83.6% [sertificate](http://goo.gl/mrhvJf)
+* Programming a Robotic Car (by Sebastian Thrun) - (With Highest Distinction) [sertificate](http://goo.gl/NDRq9C)
+* HTML5 Game Development [sertificate](http://goo.gl/xeMs8G)
+
+*Courses in Tallinn Technical University*:
+* Advanced algorithms and data structures
+* Data mining
+* Functional programming
 
 
 References
@@ -149,3 +167,4 @@ References
 * [**Anton Arhipov**](http://www.linkedin.com/in/antonarhipov), Product Lead @ Zeroturnaround, anton@zeroturnaround.com
 * [**Vjatsaslav Rosin**](http://www.linkedin.com/in/slavarosin), IT development Team and Project lead @ Tallink, slava@tallink.ee, slavarosin@gmail.com
 * [**Mark Kofman**](http://www.linkedin.com/in/markkofman), CEO at 300.mg, mark@import2.com
+* [**Andrei Tkachyov**](ee.linkedin.com/in/andreitkachyov), Senior SDET @Skype Division, Microsoft, andrei.tkachyov@skype.net
