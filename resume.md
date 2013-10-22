@@ -10,16 +10,15 @@ Résumé - Aleksandr Motsjonov
 ======================
 **soswow@gmail.com** - Tallinn, Estonia (UTC +2/+3)
 
-I am a Front-end engineer with Java background, Hacker and a Geek.
-
+I am a professional Front-end engineer with Java background, hacker and a geek.
 
 Some random stuff I do and know
 ----------------------
 **General programming skills** <br/>
-OOP, FP, Algorithms, Control flows, Data structures, Design Patterns, ...
+OOP, FP, Algorithms, Control flows, Data structures, Design Patterns
 
 **JavaScript** <br/>
-CoffeeScript, Backbone, Bootstrap, Foundation, jQuery, Grunt, ...
+CoffeeScript, Backbone, Bootstrap, Foundation, jQuery, Grunt
 
 **Other parts of the Web stack** <br/>
 DOM, CSS3/SASS, HTML5, Canvas, Websocket, other APIs
@@ -28,14 +27,14 @@ DOM, CSS3/SASS, HTML5, Canvas, Websocket, other APIs
 TDD (JUnit), BDD(Jasmine), XP methods, DRY, KISS, all this kind of stuff
 
 **Backend technologies** <br/>
-Java (Play!, Struts, Spring, ORMs, ...), Python (Django), NodeJS (Express), Ruby (RoR)
+Java (Play!, Struts, Spring, ORMs), Python (Django), NodeJS (Express), Ruby (RoR)
 
 
 Some code examples can be found here https://github.com/soswow
 
 Personal Profile
 ----------------------
-* Decent 7+ years programming experience, mostly in Java and JavaScript; also in Python and Ruby
+* Decent 7+ years programming experience, mostly in JavaScript and Java; also in Python and Ruby
 * Competent in object-oriented analysis/design, functional programming and database programming
 * Good troubleshooting and analytics skills; business oriented
 * Good interpersonal skills; great team-worker; calm and emotionally mature
