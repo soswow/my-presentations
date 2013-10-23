@@ -96,6 +96,7 @@ the Play! web framework in three months! [Screenshots](http://goo.gl/NW71iC)
 During another project I implemented Acceptance / UI tests for company main website using Python. 
 Main goal of this project was to keep integrity of the website crucial parts.
 
+
 ### 05/2010 - 03/2012 — Front-end Java Software Engineer @ [Swedbank](https://www.swedbank.ee)
 
 **Position:**
