@@ -63,7 +63,7 @@ Personal Profile
 * 7+ years programming experience, mostly in JavaScript and Java; also in Python and Ruby
 * Competent in object-oriented analysis/design, functional programming and database programming
 * Excellent troubleshooting and analytics skills; business oriented
-* Excellent interpersonal skills; great team-worker; calm and emotionally mature
+* Excellent interpersonal skills; great team-worker; honest;
 
 
 Work Experience in more details
