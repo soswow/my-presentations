@@ -60,10 +60,11 @@ Work Experience briefly
 
 Personal Profile
 ----------------------
-* 7+ years programming experience, mostly in JavaScript and Java; also in Python and Ruby
+* 8+ years programming experience, mostly in WEB stack and Java; also in Python and Ruby
 * Competent in object-oriented analysis/design, functional programming and database programming
 * Excellent troubleshooting and analytics skills; business oriented
-* Excellent interpersonal skills; great team-worker; honest;
+* Excellent interpersonal skills; great team-worker; honest
+* I do care about users; I am proactive: I make suggestions about how to improve system I am working on or processes we are using
 
 
 Work Experience in more details
@@ -76,10 +77,12 @@ Backbone, CoffeeScript, Grunt, Scss, WebSockets, Offline work, Local storage, Th
 As part of the Toggl development team I developed a completely new web experience for our user base of more than 500,000. 
 This is complete static client-side application that uses REST API on backend. 
 I modularized our client-side Backbone code in order to increase maintainability and facilitate its re-use. 
-It utilizes websockets for instantaneous synchronization and can also work offline. [Screenshots](http://goo.gl/ock3gT)
+It utilizes websockets for instantaneous synchronization and can also work offline. It's live right now and accessable on [http://new.toggl.com](http://new.toggl.com). [Screenshots](http://goo.gl/ock3gT)
 
 I wrote the web application for Toggl's hiring campaign as a personal initiative. 
 Every applicant can test his or her knowledge and show their coding skills. [Screenshots](http://goo.gl/6aTWse) I released this code as an [open source](https://github.com/soswow/lobzik) project.
+
+I initiated and pushed through an idea of writing new mobile app using native technologies (the old one was unpretty mobile website wrapped with Cordova). Later I was in the team who created initial [beta version](http://blog.toggl.com/2014/03/new-android-app-sneak-peek-call-beta-testers/).
 
 ### 03/2012 - 03/2013 — Software Engineer for Web @ [Zeroturnaround](http://zeroturnaround.com)
 
