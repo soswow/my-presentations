@@ -77,7 +77,7 @@ Backbone, CoffeeScript, Grunt, Scss, WebSockets, Offline work, Local storage, Th
 As part of the Toggl development team I developed a completely new web experience for our user base of more than 500,000. 
 This is complete static client-side application that uses REST API on backend. 
 I modularized our client-side Backbone code in order to increase maintainability and facilitate its re-use. 
-It utilizes websockets for instantaneous synchronization and can also work offline. It's live right now and accessable on [http://new.toggl.com](http://new.toggl.com). [Screenshots](http://goo.gl/ock3gT)
+It uses websockets for instantaneous synchronisation and can also work offline. It's live right now and accessible on [http://new.toggl.com](http://new.toggl.com). [Screenshots](http://goo.gl/ock3gT)
 
 I wrote the web application for Toggl's hiring campaign as a personal initiative. 
 Every applicant can test his or her knowledge and show their coding skills. [Screenshots](http://goo.gl/6aTWse) I released this code as an [open source](https://github.com/soswow/lobzik) project.
