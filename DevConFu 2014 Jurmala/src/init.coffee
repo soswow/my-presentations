@@ -1,0 +1,1 @@
+conf = new Devconfu()
