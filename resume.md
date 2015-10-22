@@ -8,9 +8,9 @@ window.print();
 
 Résumé - Aleksandr Motsjonov
 ======================
-**soswow@gmail.com**, [*github.com/soswow*](http://github.com/soswow) - Tallinn, Estonia (UTC+10)
+**soswow@gmail.com**, [*github.com/soswow*](http://github.com/soswow) - Sydney, Australia (UTC+10)
 
-I'm a full-stack engineer with focus on Front-end, working at Atlassian<br/>
+I'm a full-stack engineer with extensive JS background, working at Atlassian<br/>
 
 General expertise
 ----------------------
@@ -61,7 +61,7 @@ Work Experience briefly
 
 Personal Profile
 ----------------------
-* 8+ years programming experience, mostly in WEB stack and Java; also in Python and Ruby
+* 9+ years programming experience, mostly in Web stack, NodeJS and Java; also in Python and Ruby
 * Competent in object-oriented analysis/design, functional programming and database programming
 * Excellent troubleshooting and analytics skills; business oriented
 * Excellent interpersonal skills; great team-worker; honest
