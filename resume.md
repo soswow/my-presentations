@@ -8,9 +8,9 @@ window.print();
 
 Résumé - Aleksandr Motsjonov
 ======================
-**soswow@gmail.com**, [*github.com/soswow*](http://github.com/soswow) - Tallinn, Estonia (UTC+2)
+**soswow@gmail.com**, [*github.com/soswow*](http://github.com/soswow) - Tallinn, Estonia (UTC+10)
 
-I am a professional Front-end engineer with Java background, hacker and a geek <br/>
+I'm a full-stack engineer with focus on Front-end, working at Atlassian<br/>
 
 General expertise
 ----------------------
@@ -18,19 +18,19 @@ General expertise
 OOP, FP, Algorithms, Control flows, Data structures, Design Patterns
 
 **JavaScript** <br/>
-CoffeeScript, Backbone, Bootstrap, Foundation, jQuery, Grunt
+ES6, CoffeeScript, TypeScript, Angular, Backbone, jQuery, Grunt
 
 **Other parts of the Web stack** <br/>
 DOM, CSS3/SASS, HTML5, Canvas, Websocket, other APIs
 
 **Best practices** <br/>
-TDD (JUnit), BDD(Jasmine), XP methods, DRY, KISS
+TDD/BDD (Jasmine, JUnit), SOLID principles
 
 **Backend technologies** <br/>
-Java (Play!, Struts, Spring, ORMs), Python (Django), NodeJS (Express), Ruby (RoR)
+NodeJS, Java (Play!, Struts, Spring, ORMs), Python (Django),  (Express), Ruby (RoR)
 
 **Infrastructure** <br/>
-Intellij IDEA / Eclipse, Git / SVN, Grunt / Maven / Ant, Jenkins, Bash
+Intellij IDEA / Atom, Git / SVN, Grunt / Maven / Ant, Jenkins, Bash
 
 
 Achievements
@@ -48,7 +48,8 @@ Every applicant can test his or her knowledge and show their coding skills. [Scr
 
 Work Experience briefly
 ----------------------
-* Toggl           — **CoffeeScript, Backbone, Grunt** — *1 year*
+* Atlassian       - **Java, JavaScript, TypeScript, Node, Micro servises, Angular, React** - *1 year*
+* Toggl           — **CoffeeScript, Backbone, Grunt** — *1.5 year*
 * Zeroturnaround  — **Java, JavaScript, Python** — *1 year*
 * 300.mg          — **Ruby, CoffeeScript** — *freelance*
 * Swedbank        — **Java, JavaScript** — *2 years*
@@ -69,7 +70,12 @@ Personal Profile
 
 Work Experience in more details
 ----------------------
-### 03/2013 — Front-end engineer @ [Toggl](http://toggl.com)
+### 08/2014 — Date.now() Full-stack engineer @ [Atlassian](https://www.atlassian.com)
+
+**Stack parts:**
+Java, JavaScript, TypeScript, Node, Micro servises, Angular, React
+
+### 03/2013 — 08/2014 Front-end engineer @ [Toggl](http://toggl.com)
 
 **Technologies:**
 Backbone, CoffeeScript, Grunt, Scss, WebSockets, Offline work, Local storage, Thick client with REST API backend
