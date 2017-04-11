@@ -18,26 +18,27 @@ General expertise
 OOP, FP, Algorithms, Control flows, Data structures, Design Patterns
 
 **JavaScript** <br/>
-ES6, CoffeeScript, TypeScript, Angular, Backbone, jQuery, Grunt
+ES6, React, Redux, TypeScript, Flow, Grunt, Gulp, Webpack, CoffeeScript, Angular, Backbone, jQuery
 
 **Other parts of the Web stack** <br/>
 DOM, CSS3/SASS, HTML5, Canvas, Websocket, other APIs
 
 **Best practices** <br/>
-TDD/BDD (Jasmine, JUnit), SOLID principles
+TDD/BDD (Jasmine, JUnit), SOLID principles, DRY, 
 
 **Backend technologies** <br/>
-NodeJS, Java (Play!, Struts, Spring, ORMs), Python (Django),  (Express), Ruby (RoR)
+NodeJS (ExpressJS), Java (Play!, Struts, Spring, ORMs), Python (Django), Ruby (RoR)
 
 **Infrastructure** <br/>
-Intellij IDEA / Atom, Git / SVN, Grunt / Maven / Ant, Jenkins, Bash
+Intellij IDEA / Atom / VS Code, Git, Grunt / Gulp / Maven / Ant, Jenkins, Bamboo, Bash
 
 
 Achievements
 ----------------------
+* My biggest achievement to this date I consider my move to Australia and work I did at Atlassian. In Purchasing department I helped develop a painless purchase experience for our customers. After that, as part of JIRA Service Desk, my team was responsible for tackling most voted issues by our customers.
 * As part of the Toggl development team I developed a completely new web experience for our user base of more than 500,000. 
-I modularized our client-side Backbone code in order to increase maintainability and facilitate its re-use. 
-It utilizes websockets for instantaneous synchronization and can also work offline. [Screenshots](http://goo.gl/ock3gT)
+I modularized our client-side Backbone code in order to increase maintainability and facilitate its reuse. 
+It utilises websockets for instantaneous synchronisation and can also work offline. [Screenshots](http://goo.gl/ock3gT)
 * I wrote the web application for Toggl's hiring campaign as a personal initiative. 
 Every applicant can test his or her knowledge and show their coding skills. [Screenshots](http://goo.gl/6aTWse) I released this code as an [open source](https://github.com/soswow/lobzik) project.
 * While working at Swedbank I replaced their dated Flash-based stock chart components with modern HTML5 code [Screenshots](http://goo.gl/yI68vj).
@@ -48,7 +49,7 @@ Every applicant can test his or her knowledge and show their coding skills. [Scr
 
 Work Experience briefly
 ----------------------
-* Atlassian       - **Java, JavaScript, TypeScript, Node, Micro servises, Angular, React** - *1 year*
+* Atlassian       - **Java, JavaScript, TypeScript, Node, Micro servises, Angular, React** - *2.5 year*
 * Toggl           — **CoffeeScript, Backbone, Grunt** — *1.5 year*
 * Zeroturnaround  — **Java, JavaScript, Python** — *1 year*
 * 300.mg          — **Ruby, CoffeeScript** — *freelance*
@@ -73,22 +74,22 @@ Work Experience in more details
 ### 08/2014 — Date.now() Full-stack engineer @ [Atlassian](https://www.atlassian.com)
 
 **Stack parts:**
-Java, JavaScript, TypeScript, Node, Micro servises, Angular, React
+Java, JavaScript, TypeScript, Node, Micro services, Angular, React
 
 ### 03/2013 — 08/2014 Front-end engineer @ [Toggl](http://toggl.com)
 
 **Technologies:**
 Backbone, CoffeeScript, Grunt, Scss, WebSockets, Offline work, Local storage, Thick client with REST API backend
 
-As part of the Toggl development team I developed a completely new web experience for our user base of more than 500,000. 
-This is complete static client-side application that uses REST API on backend. 
-I modularized our client-side Backbone code in order to increase maintainability and facilitate its re-use. 
-It uses websockets for instantaneous synchronisation and can also work offline. It's live right now and accessible on [http://new.toggl.com](http://new.toggl.com). [Screenshots](http://goo.gl/ock3gT)
+As part of the Toggl development team, I developed a completely new web experience for our user base of more than 500,000. 
+This is a complete static client-side application that uses REST API on the backend. 
+I modularized our client-side Backbone code in order to increase maintainability and facilitate its reuse. 
+It uses websockets for instantaneous synchronisation and can also work offline. It's life right now and accessible on [http://new.toggl.com](http://new.toggl.com). [Screenshots](http://goo.gl/ock3gT)
 
 I wrote the web application for Toggl's hiring campaign as a personal initiative. 
 Every applicant can test his or her knowledge and show their coding skills. [Screenshots](http://goo.gl/6aTWse) I released this code as an [open source](https://github.com/soswow/lobzik) project.
 
-I initiated and pushed through an idea of writing new mobile app using native technologies (the old one was unpretty mobile website wrapped with Cordova). Later I was in the team who created initial [beta version](http://blog.toggl.com/2014/03/new-android-app-sneak-peek-call-beta-testers/).
+I initiated and pushed through an idea of writing a new mobile app using native technologies (the old one was unpretty mobile website wrapped with Cordova). Later I was in the team who created initial [beta version](http://blog.toggl.com/2014/03/new-android-app-sneak-peek-call-beta-testers/).
 
 ### 03/2012 - 03/2013 — Software Engineer for Web @ [Zeroturnaround](http://zeroturnaround.com)
 
@@ -99,11 +100,10 @@ Software engineer / Web developer for supporting existing web projects and parti
 Java, JavaScript, Python, CoffeeScript, Node.js, Play!, Play! 2
 
 With a colleague at Zeroturnaround, I delivered two successful web projects 
-([myJRebel](http://my.jrebel.com) and [License Server 2.0](http://goo.gl/BvPfJ5)) using Java and 
-the Play! web framework in three months! [Screenshots](http://goo.gl/NW71iC)
+([myJRebel](http://my.jrebel.com) and [License Server 2.0](http://goo.gl/BvPfJ5)) using Java and the Play! web framework in three months! [Screenshots](http://goo.gl/NW71iC)
 
-During another project I implemented Acceptance / UI tests for company main website using Python. 
-Main goal of this project was to keep integrity of the website crucial parts.
+During another project, I implemented Acceptance / UI tests for company main website using Python. 
+The main goal of this project was to keep the integrity of the website crucial parts.
 
 
 ### 05/2010 - 03/2012 — Front-end Java Software Engineer @ [Swedbank](https://www.swedbank.ee)
@@ -112,7 +112,7 @@ Main goal of this project was to keep integrity of the website crucial parts.
 Software engineer in the IT department of “Large corporates & Institutions” (Java + JS)
 
 **Responsibilities:**
-* New business requirements development in all applications related to stock market (including Internet Bank, and administrative application for tellers).
+* New business requirements development in all applications related to the stock market (including Internet Bank, and administrative application for tellers).
 * Maintenance of current code base
 
 **Technologies:** Java, XLST transformations, JavaScript, Oracle
@@ -125,19 +125,19 @@ Software engineer in the IT department of “Large corporates & Institutions” 
 ### 04/2010 - 11/2010 — Python Web Developer (remote) @ [Matvil Corporation](http://matvil.com/)
 
 **Position 1:**
-Full text search engine configuration (Python + Solr)
+Full-text search engine configuration (Python + Solr)
 
-Development of a back-end (Python + Django) and front-end (for the search functionality on etvnet.com)
-Configuration of a full text search engine ([Solr](http://lucene.apache.org/solr/)) for an existed database
+Development of a backend (Python + Django) and front-end (for the search functionality on etvnet.com)
+Configuration of a full-text search engine ([Solr](http://lucene.apache.org/solr/)) for an existed database
 
 **Position 2:**
 Django development + integration with third party’s e-book content provider.
 
 * Development of the new E-books catalogue site (From top to the bottom)
-* Development of the batch process for integration with a E-book provider via REST API  (Python).
+* Development of the batch process for integration with an E-book provider via REST API  (Python).
 
 **Experience gained:**
-Development with Django framework, Full text search engine configuration, Git, Working remotely
+Development with Django framework, Full-text search engine configuration, Git, Working remotely
 
 
 ### 04/2009 - 05/2010 - Front-end Java Web Developer @ [AS Tallink Group IT](https://booking.tallink.com)
@@ -149,7 +149,7 @@ Java Web Developer - Front-end and server-side (Java)
 
 
 ### 06/2009 - 08/2009 - Contractor on experimental project @ Mozilla Corporation
-I was working on experimental module of Bespin project, which would parse PSD (Photoshop) file and produce web components (html+css). One the main results of this work was Python library, that could parse PSD.
+I was working on an experimental module of Bespin project, which would parse PSD (Photoshop) file and produce web components (html+css). One the main results of this work were Python library, that could parse PSD.
 
 
 ### 10/2003 - 04/2009 - Java Web Developer @ SQA Partners
@@ -159,7 +159,7 @@ This was my first programming experience, my Alma mater as I think about it. Mai
 Education
 ----------------------
 **2008 - 2011** Bachelor of Applied Sciences (in Informatics) from Estonian Entrepreneurship University<br/>
-Graduation *cum laude*. Diploma thesis was “Face detection and tracking method, based on neural networks and skin color segmentation.” [summary](http://goo.gl/5D2097)
+Graduation *cum laude*. Diploma thesis was “Face detection and tracking method, based on neural networks and skin colour segmentation.” [summary](http://goo.gl/5D2097)
 
 *Online courses:*
 * Introduction to Artificial Intelligence (by Peter Norvig and Sebastian Thrun) - 83.6% [sertificate](http://goo.gl/mrhvJf)
@@ -172,9 +172,5 @@ Graduation *cum laude*. Diploma thesis was “Face detection and tracking method
 * Functional programming
 
 
-References
-----------------------
-* [**Anton Arhipov**](http://www.linkedin.com/in/antonarhipov), Product Lead @ Zeroturnaround, anton@zeroturnaround.com
-* [**Vjatsaslav Rosin**](http://www.linkedin.com/in/slavarosin), IT development Team and Project lead @ Tallink, slava@tallink.ee, slavarosin@gmail.com
-* [**Mark Kofman**](http://www.linkedin.com/in/markkofman), CEO at 300.mg, mark@import2.com
-* [**Andrei Tkachyov**](ee.linkedin.com/in/andreitkachyov), Senior SDET @Skype Division, Microsoft, andrei.tkachyov@skype.net
+*References*
+Available upon request.
