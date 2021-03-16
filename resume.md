@@ -35,7 +35,8 @@ Intellij IDEA / Atom / VS Code, Git, Grunt / Gulp / Maven / Ant, Jenkins, Bamboo
 
 Achievements
 ----------------------
-* My biggest achievement to this date I consider my move to Australia and work I did at Atlassian. In Purchasing department I helped develop a painless purchase experience for our customers. After that, as part of JIRA Service Desk, my team was responsible for tackling most voted issues by our customers.
+* My biggest achievement to this date I consider my move to Australia and work I did at Atlassian. In Purchasing department I helped develop a painless purchase experience for our customers. After that, as part of JIRA Service Desk, my team was responsible for tackling most voted issues by our customers. For last 2 years I work in media team. For last year I was feature lead on public links project that allows customers unfurl thousands of links in Jira, Confluence and Trello.
+* I've been selected as one of three people from Sydney office to participate in an Artificial Intelligence innovation week that took place in Mountain View.
 * As part of the Toggl development team I developed a completely new web experience for our user base of more than 500,000. 
 I modularized our client-side Backbone code in order to increase maintainability and facilitate its reuse. 
 It utilises websockets for instantaneous synchronisation and can also work offline. [Screenshots](http://goo.gl/ock3gT)
@@ -49,7 +50,7 @@ Every applicant can test his or her knowledge and show their coding skills. [Scr
 
 Work Experience briefly
 ----------------------
-* Atlassian       - **Java, JavaScript, TypeScript, Node, Micro servises, Angular, React** - *2.5 year*
+* Atlassian       - **Java, JavaScript, TypeScript, Node, Micro servises, Angular, React** - *6 year*
 * Toggl           — **CoffeeScript, Backbone, Grunt** — *1.5 year*
 * Zeroturnaround  — **Java, JavaScript, Python** — *1 year*
 * 300.mg          — **Ruby, CoffeeScript** — *freelance*
@@ -62,7 +63,7 @@ Work Experience briefly
 
 Personal Profile
 ----------------------
-* 9+ years programming experience, mostly in Web stack, NodeJS and Java; also in Python and Ruby
+* 15+ years programming experience, mostly in Web stack, NodeJS and Java; also in Python and Ruby
 * Competent in object-oriented analysis/design, functional programming and database programming
 * Excellent troubleshooting and analytics skills; business oriented
 * Excellent interpersonal skills; great team-worker; honest
