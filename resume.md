@@ -50,7 +50,7 @@ Every applicant can test his or her knowledge and show their coding skills. [Scr
 
 Work Experience briefly
 ----------------------
-* Atlassian       - **Java, JavaScript, TypeScript, Node, Micro servises, Angular, React** - *6 year*
+* Atlassian       - **Java, JavaScript, TypeScript, Node, Micro servises, Angular, React** - *10 year*
 * Toggl           — **CoffeeScript, Backbone, Grunt** — *1.5 year*
 * Zeroturnaround  — **Java, JavaScript, Python** — *1 year*
 * 300.mg          — **Ruby, CoffeeScript** — *freelance*
