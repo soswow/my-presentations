@@ -1,16 +1,15 @@
-<script>
-//This is 3 lines to generate PDF from print.
-var article = $("article").detach();
-$(".site > .container").empty().append(article);
-$(".site-footer, .pagehead, .header").remove();
-window.print();
-</script>
-
 Résumé - Aleksandr "Sasha" Motsjonov
 ======================
 **soswow@gmail.com**, [*github.com/soswow*](http://github.com/soswow) - Sydney, Australia (UTC+10)
 
-I'm a full-stack engineer with extensive JS background, working at Atlassian<br/>
+Full-stack engineer with 20+ years of experience building for the web — TypeScript/JavaScript, Node.js and others — across startups, mid-size companies, and large-scale enterprise. 11 years at Atlassian, 7+ as a Senior IC.<br/>
+
+Personal Profile
+----------------------
+* Strong architectural thinking: comfortable making high-stakes technical decisions, writing design documents, and defending tradeoffs across teams
+* Proven mentor and team multiplier — contributed to multiple engineer promotions, ran book clubs, and onboarded new team members and PMs
+* Deep care for end users and product quality; proactive about improving both the systems I build and the processes around them
+* Honest and straightforward communicator across engineering, product, and design — equally comfortable pushing back on a technical decision, debugging an incident in a war room, or presenting a demo to 50+ people
 
 General expertise
 ----------------------
@@ -33,6 +32,8 @@ NodeJS (ExpressJS and others), Java (Play!, Spring, ORMs), Python (Django), Ruby
 AWS, Git, Spinnaker, Bamboo, Jenkins, Docker, VS Code / IntelliJ IDEA, Bash
 
 
+<div style="page-break-before: always;"></div>
+
 Achievements
 ----------------------
 * At Atlassian, I led the development of Smart Link List View — a feature that lets users embed live, configurable tables of Jira issues directly inside Confluence and Jira editors, replacing the legacy Jira Issue Macro. I also drove critical architecture decisions, including a multi-week investigation that prevented a costly merge of two competing table implementations.
@@ -41,12 +42,12 @@ Achievements
 * I've been selected as one of three people from Sydney office to participate in an Artificial Intelligence innovation week that took place in Mountain View.
 * As part of the Toggl development team I developed a completely new web experience for our user base of more than 500,000. 
 I modularized our client-side Backbone code in order to increase maintainability and facilitate its reuse. 
-It utilises websockets for instantaneous synchronisation and can also work offline. [Screenshots](http://goo.gl/ock3gT)
+It utilises websockets for instantaneous synchronisation and can also work offline.
 * I wrote the web application for Toggl's hiring campaign as a personal initiative. 
-Every applicant can test his or her knowledge and show their coding skills. [Screenshots](http://goo.gl/6aTWse) I released this code as an [open source](https://github.com/soswow/lobzik) project.
-* While working at Swedbank I replaced their dated Flash-based stock chart components with modern HTML5 code [Screenshots](http://goo.gl/yI68vj).
-* With a colleague at Zeroturnaround, I delivered two successful web projects using Java and the Play! web framework in three months! [Screenshots](http://goo.gl/NW71iC)
-* Graduated *cum laude* with my diploma thesis "Face Detection and Tracking Method Based on Neural Networks and Skin Color Segmentation" [summary](http://goo.gl/5D2097)
+Every applicant can test his or her knowledge and show their coding skills. I released this code as an [open source](https://github.com/soswow/lobzik) project.
+* While working at Swedbank I replaced their dated Flash-based stock chart components with modern HTML5 code.
+* With a colleague at Zeroturnaround, I delivered two successful web projects using Java and the Play! web framework in three months!
+* Graduated *cum laude* with my diploma thesis "Face Detection and Tracking Method Based on Neural Networks and Skin Color Segmentation"
 * Co-organized and given more than ten talks at local developer community meetups ([Devclub](http://www.devclub.eu/people/))
 
 
@@ -61,16 +62,6 @@ Work Experience briefly
 * Tallink         — **Java, JavaScript** — *1 year*
 * Mozilla Corp.   — **Python, JavaScript** — *3 months* (remotely)
 * SQA Partners    — **Java, JavaScript** — *~ 4 years*
-
-
-Personal Profile
-----------------------
-* 20+ years programming experience, mostly in Web stack, NodeJS and Java; also in Python and Ruby
-* Competent in object-oriented analysis/design, functional programming and database programming
-* Excellent troubleshooting and analytics skills; business oriented
-* Excellent interpersonal skills; great team-worker; honest
-* I do care about users; I am proactive: I make suggestions about how to improve system I am working on or processes we are using
-
 
 Work Experience in more details
 ----------------------
