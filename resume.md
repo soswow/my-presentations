@@ -6,7 +6,7 @@ $(".site-footer, .pagehead, .header").remove();
 window.print();
 </script>
 
-Résumé - Aleksandr Motsjonov
+Résumé - Aleksandr "Sasha" Motsjonov
 ======================
 **soswow@gmail.com**, [*github.com/soswow*](http://github.com/soswow) - Sydney, Australia (UTC+10)
 
@@ -17,25 +17,27 @@ General expertise
 **General programming skills** <br/>
 OOP, FP, Algorithms, Control flows, Data structures, Design Patterns
 
-**JavaScript** <br/>
-ES6, React, Redux, TypeScript, Flow, Grunt, Gulp, Webpack, CoffeeScript, Angular, Backbone, jQuery
+**TypeScript / JavaScript** <br/>
+TypeScript, React, Redux, ES6+, Webpack, Node.js, CoffeeScript, Angular, Backbone, jQuery
 
 **Other parts of the Web stack** <br/>
 DOM, CSS3/SASS, HTML5, Canvas, Websocket, other APIs
 
-**Best practices** <br/>
-TDD/BDD (Jasmine, JUnit), SOLID principles, DRY, 
+**Architecture & Practices** <br/>
+Microservices, Monorepo tooling, Feature flags / progressive rollout, Graph databases (Cypher), TDD/BDD (Jest, JUnit), SOLID principles, DRY
 
 **Backend technologies** <br/>
-NodeJS (ExpressJS), Java (Play!, Struts, Spring, ORMs), Python (Django), Ruby (RoR)
+NodeJS (ExpressJS and others), Java (Play!, Spring, ORMs), Python (Django), Ruby (RoR)
 
 **Infrastructure** <br/>
-Intellij IDEA / Atom / VS Code, Git, Grunt / Gulp / Maven / Ant, Jenkins, Bamboo, Bash
+AWS, Git, Spinnaker, Bamboo, Jenkins, Docker, VS Code / IntelliJ IDEA, Bash
 
 
 Achievements
 ----------------------
-* My biggest achievement to this date I consider my move to Australia and work I did at Atlassian. In Purchasing department I helped develop a painless purchase experience for our customers. After that, as part of JIRA Service Desk, my team was responsible for tackling most voted issues by our customers. For last 2 years I work in media team. For last year I was feature lead on public links project that allows customers unfurl thousands of links in Jira, Confluence and Trello.
+* At Atlassian, I led the development of Smart Link List View — a feature that lets users embed live, configurable tables of Jira issues directly inside Confluence and Jira editors, replacing the legacy Jira Issue Macro. I also drove critical architecture decisions, including a multi-week investigation that prevented a costly merge of two competing table implementations.
+* As a **Senior-level IC (P50 for 7+ years)** frequently acting as Tech Lead, I **received "Exceeding Expectations" ratings** in half of my recent performance cycles. I managed teams of 5–8 engineers, mentored three colleagues toward promotions, and represented the Linking Platform in cross-team technical negotiations — including ownership transitions, API decommission pushbacks, and redirecting partner teams toward simpler solutions that saved weeks of development time.
+* In earlier years at Atlassian, in the Purchasing department I helped develop a painless purchase experience for our customers. After that, as part of JIRA Service Desk, my team was responsible for tackling most voted issues by our customers. Later I moved to the media team, where I was feature lead on a public links project that allows customers to unfurl thousands of links in Jira, Confluence and Trello.
 * I've been selected as one of three people from Sydney office to participate in an Artificial Intelligence innovation week that took place in Mountain View.
 * As part of the Toggl development team I developed a completely new web experience for our user base of more than 500,000. 
 I modularized our client-side Backbone code in order to increase maintainability and facilitate its reuse. 
@@ -50,7 +52,7 @@ Every applicant can test his or her knowledge and show their coding skills. [Scr
 
 Work Experience briefly
 ----------------------
-* Atlassian       - **Java, JavaScript, TypeScript, Node, Micro servises, Angular, React** - *10 year*
+* Atlassian       - **TypeScript, NodeJS, React, Micro servises, Angular** - *11 year*
 * Toggl           — **CoffeeScript, Backbone, Grunt** — *1.5 year*
 * Zeroturnaround  — **Java, JavaScript, Python** — *1 year*
 * 300.mg          — **Ruby, CoffeeScript** — *freelance*
@@ -63,7 +65,7 @@ Work Experience briefly
 
 Personal Profile
 ----------------------
-* 15+ years programming experience, mostly in Web stack, NodeJS and Java; also in Python and Ruby
+* 20+ years programming experience, mostly in Web stack, NodeJS and Java; also in Python and Ruby
 * Competent in object-oriented analysis/design, functional programming and database programming
 * Excellent troubleshooting and analytics skills; business oriented
 * Excellent interpersonal skills; great team-worker; honest
@@ -75,7 +77,52 @@ Work Experience in more details
 ### 08/2014 — Date.now() Full-stack engineer @ [Atlassian](https://www.atlassian.com)
 
 **Stack parts:**
-Java, JavaScript, TypeScript, Node, Micro services, Angular, React
+TypeScript, React, NodeJS, Java, Micro services, Angular
+
+It's been 11 years of projects and work done. The following is some of the latest examples between FY24–FY25
+
+Staff-level IC (P50) on the Linking Platform team within Atlassian's Teamwork Platform group, frequently acting as Tech Lead. Work spanned Confluence, Jira, Smart Links, Automations, and internal graph services.
+
+
+**1. Smart Link List View — Core Product Delivery**
+
+Led the development and delivery of Smart Link List View (SLLV), a feature that lets users embed live, configurable tables of Jira issues and other data directly inside Confluence and Jira editors — replacing the legacy Jira Issue Macro. Over the course of roughly a year, I built key UX capabilities including resizable columns, column wrapping, a sticky column picker, and a frontend caching layer. I also solved a critical performance bottleneck affecting instances with thousands of columns and drove scope tradeoffs to ensure the team shipped meaningful filtering without building throwaway code ahead of a planned platform change.
+
+**2. Architecture Decisions — Two-Way Sync & Datasource Strategy**
+
+Served as the primary technical voice on two major architectural questions. For Jira Two-Way Sync — which enables inline editing of Jira fields from within Confluence — I guided the Feature Lead through multiple milestones, identified a permissions design flaw early that prompted a full architecture change (preventing costly delays later), and made key data-structure decisions that saved time and produced a more future-proof solution. Separately, when Confluence launched its own "Database" feature and there was pressure to merge the two table implementations, I led a multi-week technical investigation, built a compelling case that the products had more differences than similarities, and successfully drove the decision to keep them separate — preventing a costly and confusing merge.
+
+**3. Teamwork Context — Graph-Based Collaboration**
+
+Led a team of four engineers over six weeks to build the backend and frontend foundation for Teamwork Context, an initiative that gives Atlassian products a shared understanding of how people, projects, and content relate. I owned the backend work — learning Cypher graph queries and integrating with Atlassian's Unified Graph Service — while also advocating for UX changes that simplified the implementation. By carefully sequencing work to minimise cross-engineer dependencies, the team had a working prototype with real data running in the product within two weeks.
+
+**4. Technical Leadership**
+
+Served as Acting Tech Lead for extended periods, managing a team of 5–8 engineers across sprint planning, grooming, weekly 1:1s, and stakeholder communication. I was the go-to decision-maker for unblocking work and the primary bridge between engineering, product, and design. I improved team processes — moving estimation into grooming to eliminate redundant meetings, introducing pre-grooming prep sessions, and championing recorded walkthroughs for complex PRs. As a member of the Technical Advisory Group, I led investigations into feature-flagging migration impact and authored a strategy to reduce on-call noise from third-party service alerts, which was adopted across the platform.
+
+**5. Cross-Product Declarative UI**
+
+Under a tight six-week deadline (with only 3–4 weeks available before leave), I designed and delivered a declarative UI framework for Atlassian's Automations product. The system dynamically renders input fields based on the selected action type, and the resulting schema became a shared foundation that allowed both Rovo (Atlassian's AI product) and Automations to reuse the same actions with different presentations.
+
+**6. Developer Tools & Internal Products**
+
+Built and maintained several widely-used internal tools. I created a graph schema visualisation tool for the Unified Graph Service from scratch — after the PM deprioritised it — replacing a previous tool that took 3+ minutes to load; it was adopted company-wide. I am the sole maintainer of Better Retros, a Confluence plugin for running retrospectives used to create thousands of retros per quarter, keeping it operational through outages, AWS region migrations, and compliance requirements. I also built and maintain a timesheet-filling script used by thousands of employees that.
+
+**7. Cross-Team Negotiations & Ownership Transitions**
+
+Repeatedly represented the team in high-stakes cross-team discussions. I negotiated an API decommission timeline with an internal platform team, pushing back the deadline and choosing a long-term migration path that freed team resources. I drove two major ownership transitions — the Editor/Smart Links component handover (documenting all link-related code, running meetings with principal-level engineers, and transferring code ownership) and a Confluence-specific service transition (authoring architecture diagrams and handover documentation). I also redirected an internal product team toward a simpler integration approach that saved them an estimated six weeks of development, and pushed back on leadership's proposal to remove a feature by presenting usage data and an alternative solution, which I then implemented.
+
+**8. Mentorship & People Development**
+
+Contributed to the promotion of three team members by intentionally distributing impactful projects, tailoring work to individual growth goals, and providing consistent 1:1 guidance. I started an engineering book club around Clean Architecture that ran weekly for months, mentored a junior engineer through a formal mentorship programme, and onboarded a new PM as de facto tech lead. My approach was hands-on — one mentoring relationship involved over 1,000 Slack messages in a single half-year alongside weekly sessions.
+
+**9. Engineering Craft & Operational Excellence**
+
+Maintained a high engineering bar through extensive PR reviews (~60 in a single half in the main frontend monorepo alone), consistently pushing for test coverage, clean code, and preventing accidental breaking changes. On the technical side, I unblocked the company-wide React 18 migration by finding and fixing the only blocking bug in our codebase (a subtle `useEffect` behaviour difference), demonstrated advanced TypeScript expertise, and resolved complex backend bugs under SLO pressure — including late-night fixes for customer-reported issues. I also led incident response across teams, identifying root causes (such as a feature flag from another team breaking embeds in staging) and escalating systemic issues like a failing deployment pipeline.
+
+**10. Organisational & Cultural Impact**
+
+Ran fortnightly demo sessions for the broader platform group and facilitated regular knowledge-sharing presentations, helped organise team offsites and social events, conducted frontend interviews throughout the period while teaching colleagues the interview process, and maintained community gatherings for local Atlassian employees.
 
 ### 03/2013 — 08/2014 Front-end engineer @ [Toggl](http://toggl.com)
 
